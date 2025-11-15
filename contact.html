@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Namma Kudla</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Namma Kudla</a>
+    <nav class="nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="guide.html">Guides</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="btn small">Contact</a>
+    </nav>
+    <button id="navToggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+  </div>
+</header>
+
+<main class="container contact-page">
+  <section class="section-heading">
+    <h1>Contact Us</h1>
+    <p class="muted">Questions, suggestions or collaboration? Send a message.</p>
+  </section>
+
+  <section class="contact-grid">
+    <form id="contactForm" class="contact-form" novalidate>
+      <label>
+        Your name
+        <input type="text" id="contactName" required>
+      </label>
+      <label>
+        Email
+        <input type="email" id="contactEmail" required>
+      </label>
+      <label>
+        Message
+        <textarea id="contactMessage" rows="5" required></textarea>
+      </label>
+      <button class="btn" type="submit">Send Message</button>
+      <p id="contactStatus" class="muted"></p>
+    </form>
+
+    <aside class="contact-info">
+      <h3>Visit or Email</h3>
+      <p>Namma Kudla — Student project</p>
+      <p>Email: <a href="mailto:rajri@example.com">ananyashetty@gmail.com</a></p>
+      <h4>Follow</h4>
+      <p><a href="#">Instagram</a> • <a href="#">Facebook</a></p>
+      <div class="map-frame small">
+        <iframe title="Mangalore Map" src="https://www.google.com/maps?q=Mangalore&output=embed" loading="lazy"></iframe>
+      </div>
+    </aside>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    
+    <div><h4>Quick Links</h4><a href="index.html">Home</a> <a href="blog.html">Blog</a></div>
+    
+  </div>
+  <div class="container copyright"><small>© <span id="year6"></span> Namma Kudla</small></div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

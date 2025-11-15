@@ -1,0 +1,29 @@
+Project Title: Namma Kudla – Tourism Website
+Submitted by: Ananya S Shetty
+
+Pages
+
+	•	index.html – Home page with banner and links to other pages
+	•	blog.html – Travel stories and blog posts
+	•	destinations.html – Main tourist places in Kudla
+	•	guide.html – Local guide profiles
+	•	about.html – Info about the project and creator
+	•	contact.html – Contact form for users
+
+Technologies Used
+
+	•	HTML5 – Structure of the website
+	•	CSS3 – Styling, layout, responsiveness
+	•	JavaScript – Interactivity (forms, comments, navigation)
+
+How to Run
+
+	1.	Create folders:
+        
+        css/
+        js/
+        images/
+    
+	2.	Save all HTML files in the main folder.
+	3.	Place style.css inside css/ and script.js inside js/.
+	4.	Open index.html in any browser to view the website.
